@@ -1,0 +1,23 @@
+fullPage {
+    z-index: 9999999;
+    position: fixed;
+    top: 20px;
+    bottom: auto;
+    left: 20px;
+    right: auto;
+    background: red;
+    padding: 7px 15px;
+    font-size: 14px;
+    font-family: arial;
+    color: #fff;
+    display: inline-block;
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+    height: auto;
+    width: auto;
+    zoom: 1;
+    margin: auto;
+    border: none;
+    visibility: visible;
+    clip-path: none;
+}

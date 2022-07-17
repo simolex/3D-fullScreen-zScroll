@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>3D-Scene</title>
+        <link rel="stylesheet" href="css/main.css" />
+        <script defer src="js/app.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <section class="gallary">
+                <div class="frame">
+                    <div class="frame__content">
+                        <h2>Beautiful World</h2>
+                    </div>
+                </div>
+                <div class="frame">
+                    <div class="frame__content">
+                        <div class="frame-media frame-media--left" style="background-image: url('images/1.jpg')"></div>
+                    </div>
+                </div>
+                <div class="frame frame--bg">
+                    <div class="frame__content">
+                        <video
+                            class="frame-media frame-media--right"
+                            src="media/video_optimized.mp4"
+                            autoplay
+                            loop
+                            muted
+                        ></video>
+                    </div>
+                </div>
+                <div class="frame empty"></div>
+
+                <div class="frame">
+                    <div class="frame__content text-right">
+                        <h3>Pure Planet</h3>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis dolorum repellat labore ullam
+                            eius cumque!
+                        </p>
+                    </div>
+                </div>
+                <div class="frame frame--bg">
+                    <div class="frame__content">
+                        <div class="frame-media frame-media--left" style="background-image: url('images/2.jpg')"></div>
+                    </div>
+                </div>
+                <div class="frame empty"></div>
+                <div class="frame">
+                    <div class="frame__content text-left">
+                        <h3>Pure Planet</h3>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis dolorum repellat labore ullam
+                            eius cumque!
+                        </p>
+                    </div>
+                </div>
+                <div class="frame frame--bg">
+                    <div class="frame__content">
+                        <div class="frame-media frame-media--right" style="background-image: url('images/3.jpg')"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <img src="images/sound.gif " alt="Alt" class="sound-btn paused" />
+        <audio class="audio" src="media/ambient.mp3" loop></audio>
+    </body>
+</html>
